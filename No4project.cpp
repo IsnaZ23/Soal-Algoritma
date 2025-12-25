@@ -17,13 +17,13 @@ int main() {
 void konversi(int mm) {
 	int km, m, cm;
 	
-	km = mm / 1000000;
-	mm = mm % 1000000;
+	km = mm / 1000000; // 1000000 / 1000000 = 1
+	mm = mm % 1000000; // hasil = 0
 	
-	m = mm / 1000;
+	m = mm / 1000; // 0 bagi 1000 = 0
 	mm = mm % 1000;
 	
-	cm = mm / 10;
+	cm = mm / 10; // 0 bagi 10 = 0
 	mm = mm % 10;
 	
 	cout << "hasil konversi =";

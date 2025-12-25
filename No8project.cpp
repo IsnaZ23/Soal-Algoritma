@@ -2,16 +2,17 @@
 using namespace std;
 
 const int MAKS_TIM = 13;
-const int MAKS_HURUF = 10;
+const int MAKS_HURUF = 30;
 
-char tim[MAKS_TIM][MAKS_HURUF];
+char tim[MAKS_TIM][MAKS_HURUF]; //tim[0][11] = isnan isnan, tim [1][1] = a
 int jumlahTim = 0;
 
 void inputTim() {
     cout << "\n=== INPUT DATA TIM PESERTA ===\n";
+    cin.ignore();
     for (int i = 0; i < MAKS_TIM; i++) {
         cout << "Masukkan nama tim ke-" << i + 1 ;
-        cin >> tim[i];          
+        cin.getline(tim[i],MAKS_HURUF);          
     }
     jumlahTim = MAKS_TIM;
     cout << "\n>> Input selesai.\n";

@@ -33,7 +33,7 @@ if(angka <= 11){
         cout<<"Sebelas"<<endl;
     }
 }else if (angka < 20) {
-int satuan = angka % 10;
+int satuan = angka % 10; //(19 mod 10 = 1,9 daimbil 9)
     if (satuan == 2) cout << "dua belas";
     else if (satuan == 3) cout << "tiga belas";
     else if (satuan == 4) cout << "empat belas";
@@ -43,8 +43,9 @@ int satuan = angka % 10;
     else if (satuan == 8) cout << "delapan belas";
     else if (satuan == 9) cout << "sembilan belas";
 } else {
-int puluhan = angka / 10;
-int satuan = angka % 10;
+    //22
+int puluhan = angka / 10; //22 dibagi 10 hasil 2,2 diambil 2 (du modul), mod = 2 
+int satuan = angka % 10; 
     if (puluhan == 2) cout << "dua puluh";
     else if (puluhan == 3) cout << "tiga puluh";
     else if (puluhan == 4) cout << "empat puluh";
