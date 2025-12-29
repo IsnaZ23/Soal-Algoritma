@@ -75,7 +75,7 @@ Simply right-click on the `.cpp` file and select "Run Code"
 
 - All programs are written in **C++** and tested using **g++ compiler**
 - The `output/` directory contains compiled executable files
-- Documentation files (`5 soal projek alpro.docx`, `Penjelasan projek.docx`, `soal project if.pdf`) contain the original assignment questions and explanations
+- Documentation files (`soal project if.pdf`) contain the original assignment questions and explanations
 - Some files have `(New)` suffix indicating an updated/improved version
 
 ---
