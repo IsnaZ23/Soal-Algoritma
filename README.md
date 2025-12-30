@@ -90,4 +90,4 @@ UPN "Veteran" Yogyakarta
 
 ## 📄 License
 
-This project is for educational purposes only.
+This project is for educational purposes only , Thank you for looking my work
